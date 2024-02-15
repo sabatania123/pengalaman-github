@@ -22,7 +22,7 @@ function varargout = pemfuzzy(varargin)
 
 % Edit the above text to modify the response to help pemfuzzy
 
-% Last Modified by GUIDE v2.5 15-Feb-2024 12:41:27
+% Last Modified by GUIDE v2.5 15-Feb-2024 12:47:08
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -78,3 +78,28 @@ function figure1_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to figure1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
+
+
+% --- Executes on button press in radiobutton1.
+function radiobutton1_Callback(hObject, eventdata, handles)
+% hObject    handle to radiobutton1 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of radiobutton1
+
+
+% --- Executes on button press in radiobutton2.
+function radiobutton2_Callback(hObject, eventdata, handles)
+% hObject    handle to radiobutton2 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of radiobutton2
+
+
+% --- Executes on button press in pushbutton1.
+function pushbutton1_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton1 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
