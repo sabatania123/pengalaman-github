@@ -137,13 +137,10 @@ set(handles.edit3,'string',hasil);
 if hasil <= 45 {
         msgbox('Rendah');
         }
-elseif hasil >= 50 && hasil <= 100{
+elseif hasil > 50 && hasil <= 100{
         msgbox('Tinggi');
         }
-elseif hasil >45 && hasil <50{
-        msgbox('antara Rendah atau Tinggi');
-        }
-end
+elseif hasil >45 && hasil 
 
 
 function edit3_Callback(hObject, eventdata, handles)
